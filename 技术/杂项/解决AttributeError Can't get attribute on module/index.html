@@ -20,28 +20,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"yuxuan255.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.23.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":100,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="建站时参考的文章和文档">
+    <meta name="description" content="解决windows上jupyter多进程报错AttributeError问题">
 <meta property="og:type" content="article">
-<meta property="og:title" content="建站记录">
-<meta property="og:url" content="http://yuxuan255.github.io/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99/%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/index.html">
+<meta property="og:title" content="解决AttributeError Can&#39;t get attribute on module">
+<meta property="og:url" content="http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/%E8%A7%A3%E5%86%B3AttributeError%20Can't%20get%20attribute%20on%20module/index.html">
 <meta property="og:site_name" content="YuXuan255">
-<meta property="og:description" content="建站时参考的文章和文档">
+<meta property="og:description" content="解决windows上jupyter多进程报错AttributeError问题">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-05-18T13:49:58.000Z">
-<meta property="article:modified_time" content="2025-07-06T14:24:52.653Z">
+<meta property="article:published_time" content="2025-07-08T10:01:37.000Z">
+<meta property="article:modified_time" content="2025-07-08T10:27:42.108Z">
 <meta property="article:author" content="YuXuan255">
-<meta property="article:tag" content="Obsidian">
-<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="bug">
+<meta property="article:tag" content="Python">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://yuxuan255.github.io/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99/%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/">
+<link rel="canonical" href="http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/%E8%A7%A3%E5%86%B3AttributeError%20Can't%20get%20attribute%20on%20module/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yuxuan255.github.io/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99/%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/","path":"学习/建站/建站记录/","title":"建站记录"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/%E8%A7%A3%E5%86%B3AttributeError%20Can't%20get%20attribute%20on%20module/","path":"技术/杂项/解决AttributeError Can't get attribute on module/","title":"解决AttributeError Can't get attribute on module"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>建站记录 | YuXuan255</title>
+<title>解决AttributeError Can't get attribute on module | YuXuan255</title>
   
 
 
@@ -137,7 +137,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">参考:</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Obsidian-Hexo-Github-Pages%E5%BB%BA%E7%AB%99"><span class="nav-number">1.1.</span> <span class="nav-text">Obsidian + Hexo + Github Pages建站</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE"><span class="nav-number">1.2.</span> <span class="nav-text">图床配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE"><span class="nav-number">1.3.</span> <span class="nav-text">Next主题配置</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">问题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">2.</span> <span class="nav-text">解决</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -205,7 +205,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yuxuan255.github.io/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99/%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/">
+    <link itemprop="mainEntityOfPage" href="http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/%E8%A7%A3%E5%86%B3AttributeError%20Can't%20get%20attribute%20on%20module/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.webp">
@@ -218,12 +218,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="建站记录 | YuXuan255">
-      <meta itemprop="description" content="建站时参考的文章和文档">
+      <meta itemprop="name" content="解决AttributeError Can&#39;t get attribute on module | YuXuan255">
+      <meta itemprop="description" content="解决windows上jupyter多进程报错AttributeError问题">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          建站记录
+          解决AttributeError Can't get attribute on module
         </h1>
 
         <div class="post-meta-container">
@@ -233,15 +233,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2025-05-18 21:49:58" itemprop="dateCreated datePublished" datetime="2025-05-18T21:49:58+08:00">2025-05-18</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-07-06 22:24:52" itemprop="dateModified" datetime="2025-07-06T22:24:52+08:00">2025-07-06</time>
+      <time title="创建时间：2025-07-08 18:01:37 / 修改时间：18:27:42" itemprop="dateCreated datePublished" datetime="2025-07-08T18:01:37+08:00">2025-07-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -249,34 +243,35 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
+          <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99/" itemprop="url" rel="index"><span itemprop="name">建站</span></a>
+          <a href="/categories/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/" itemprop="url" rel="index"><span itemprop="name">杂项</span></a>
         </span>
     </span>
 
   
 </div>
 
-            <div class="post-description">建站时参考的文章和文档</div>
+            <div class="post-description">解决windows上jupyter多进程报错AttributeError问题</div>
         </div>
       </header>
 
     
     
     
-    <div class="post-body" itemprop="articleBody"><h1>参考:</h1>
-<h2 id="Obsidian-Hexo-Github-Pages建站">Obsidian + Hexo + Github Pages建站</h2>
-<p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a></p>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/554333805">Obsidian+Git完美维护Hexo博客</a></p>
-<p>支持渲染双向链接:<br>
-<a target="_blank" rel="noopener" href="https://blog.uuanqin.top/p/d4bc55f2">Hexo 博客适配 Obsidian 新语法</a></p>
-<h2 id="图床配置">图床配置</h2>
-<p><a target="_blank" rel="noopener" href="https://juejin.cn/post/7458103820734234676">腾讯云对象存储COS自建图床并配置Obsidian自动上传</a></p>
-<h2 id="Next主题配置">Next主题配置</h2>
-<p><a target="_blank" rel="noopener" href="https://theme-next.js.org/">Next</a></p>
+    <div class="post-body" itemprop="articleBody"><p>之前本地跑大作业时遇上的神秘问题，有点抽象，遂记录一下。</p>
+<h1>问题</h1>
+<p>本地跑大作业的模型训练时一直卡着不动，看jupyter命令行发现报错:<code>AttributeError: Can't get attribute 'FashionDataset' on &lt;module '__main__' (&lt;class '_frozen_importlib.BuiltinImporter'&gt;)&gt;</code><br>
+在网上搜索一番后在<a target="_blank" rel="noopener" href="https://juejin.cn/post/7017712084892794910">这篇文章</a>发现了问题原因:</p>
+<blockquote>
+<p>实际上这个地方：在linux中使用的是fork的方式，可以复制公共变量和方法到新开启的进程中，但是windows中是重建一个新的进程(全新)，在进程中并不存在公共的变量和方法，所以会出现这个问题，未能导入模块中定义的对象</p>
+</blockquote>
+<h1>解决</h1>
+<p>把出问题的代码(我这里是FashionDataset类)打包成一个单独的.py文件再import进来就行。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># dataset.py</span></span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> gzip</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">from</span> torch.utils.data <span class="keyword">import</span> Dataset</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FashionDataset</span>(<span class="title class_ inherited__">Dataset</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, datadir, transform, is_train=<span class="literal">True</span></span>):</span><br><span class="line">        <span class="built_in">super</span>().__init__()</span><br><span class="line">        <span class="variable language_">self</span>.datadir = datadir</span><br><span class="line">        <span class="variable language_">self</span>.transform = transform</span><br><span class="line">        <span class="variable language_">self</span>.img, <span class="variable language_">self</span>.label = <span class="variable language_">self</span>.load_data(datadir, is_train)</span><br><span class="line">        <span class="variable language_">self</span>.len_data = <span class="built_in">len</span>(<span class="variable language_">self</span>.img)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__getitem__</span>(<span class="params">self, index</span>):</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>.transform(<span class="variable language_">self</span>.img[index]), <span class="variable language_">self</span>.label[index]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__len__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>.len_data</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">load_data</span>(<span class="params">self, datadir, is_train</span>):</span><br><span class="line">        dirname = os.path.join(datadir)</span><br><span class="line">        files = [<span class="string">&#x27;train-labels-idx1-ubyte.gz&#x27;</span>, <span class="string">&#x27;train-images-idx3-ubyte.gz&#x27;</span>,</span><br><span class="line">                 <span class="string">&#x27;t10k-labels-idx1-ubyte.gz&#x27;</span>, <span class="string">&#x27;t10k-images-idx3-ubyte.gz&#x27;</span>]</span><br><span class="line">        paths = [os.path.join(dirname, f) <span class="keyword">for</span> f <span class="keyword">in</span> files]</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> is_train:</span><br><span class="line">            <span class="keyword">with</span> gzip.<span class="built_in">open</span>(paths[<span class="number">0</span>], <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> lbpath:</span><br><span class="line">                label = np.frombuffer(lbpath.read(), np.uint8, offset=<span class="number">8</span>)</span><br><span class="line">            <span class="keyword">with</span> gzip.<span class="built_in">open</span>(paths[<span class="number">1</span>], <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> imgpath:</span><br><span class="line">                img = np.frombuffer(imgpath.read(), np.uint8,</span><br><span class="line">                                    offset=<span class="number">16</span>).reshape(<span class="built_in">len</span>(label), <span class="number">28</span>, <span class="number">28</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">with</span> gzip.<span class="built_in">open</span>(paths[<span class="number">2</span>], <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> lbpath:</span><br><span class="line">                label = np.frombuffer(lbpath.read(), np.uint8, offset=<span class="number">8</span>)</span><br><span class="line">            <span class="keyword">with</span> gzip.<span class="built_in">open</span>(paths[<span class="number">3</span>], <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> imgpath:</span><br><span class="line">                img = np.frombuffer(imgpath.read(), np.uint8,</span><br><span class="line">                                    offset=<span class="number">16</span>).reshape(<span class="built_in">len</span>(label), <span class="number">28</span>, <span class="number">28</span>)</span><br><span class="line">        <span class="keyword">return</span> img, label</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>然后在主文件中<code>from dataset import FashionDataset</code>就行</p>
 
     </div>
 
@@ -286,22 +281,19 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Obsidian/" rel="tag"># Obsidian</a>
-              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+              <a href="/tags/bug/" rel="tag"># bug</a>
+              <a href="/tags/Python/" rel="tag"># Python</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99/test/" rel="prev" title="test">
-                  <i class="fa fa-angle-left"></i> test
+                <a href="/%E5%AD%A6%E4%B9%A0/NTU-ML-2022/ML2022-Lecture1-Notes/" rel="prev" title="ML2022-Lecture1-Notes">
+                  <i class="fa fa-angle-left"></i> ML2022-Lecture1-Notes
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/%E5%AD%A6%E4%B9%A0/NTU-ML-2022/ML2022-Lecture1-Notes/" rel="next" title="ML2022-Lecture1-Notes">
-                  ML2022-Lecture1-Notes <i class="fa fa-angle-right"></i>
-                </a>
             </div>
           </div>
     </footer>
