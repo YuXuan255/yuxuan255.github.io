@@ -20,28 +20,33 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"yuxuan255.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.23.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":100,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="解决windows上jupyter多进程报错AttributeError问题">
+    <meta name="description" content="一些个人配置以及bug解决">
 <meta property="og:type" content="article">
-<meta property="og:title" content="解决AttributeError Can&#39;t get attribute on module">
-<meta property="og:url" content="http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/%E8%A7%A3%E5%86%B3AttributeError%20Can't%20get%20attribute%20on%20module/index.html">
+<meta property="og:title" content="Ubuntu24.04从入门到入坟">
+<meta property="og:url" content="http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/Ubuntu24.04%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/index.html">
 <meta property="og:site_name" content="YuXuan255">
-<meta property="og:description" content="解决windows上jupyter多进程报错AttributeError问题">
+<meta property="og:description" content="一些个人配置以及bug解决">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-07-08T10:01:37.000Z">
-<meta property="article:modified_time" content="2025-07-08T10:27:42.108Z">
+<meta property="og:image" content="https://image-host-1358252802.cos.ap-beijing.myqcloud.com/img/20260131214219081.webp?imageSlim">
+<meta property="og:image" content="https://image-host-1358252802.cos.ap-beijing.myqcloud.com/img/20260131211842473.webp?imageSlim">
+<meta property="og:image" content="https://image-host-1358252802.cos.ap-beijing.myqcloud.com/img/20260131211724492.webp?imageSlim">
+<meta property="article:published_time" content="2026-02-08T15:32:19.000Z">
+<meta property="article:modified_time" content="2026-02-08T15:42:35.612Z">
 <meta property="article:author" content="YuXuan255">
+<meta property="article:tag" content="Ubuntu">
+<meta property="article:tag" content="Linux">
 <meta property="article:tag" content="bug">
-<meta property="article:tag" content="Python">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://image-host-1358252802.cos.ap-beijing.myqcloud.com/img/20260131214219081.webp?imageSlim">
 
 
-<link rel="canonical" href="http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/%E8%A7%A3%E5%86%B3AttributeError%20Can't%20get%20attribute%20on%20module/">
+<link rel="canonical" href="http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/Ubuntu24.04%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/%E8%A7%A3%E5%86%B3AttributeError%20Can't%20get%20attribute%20on%20module/","path":"技术/杂项/解决AttributeError Can't get attribute on module/","title":"解决AttributeError Can't get attribute on module"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/Ubuntu24.04%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/","path":"技术/杂项/Ubuntu24.04从入门到入坟/","title":"Ubuntu24.04从入门到入坟"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>解决AttributeError Can't get attribute on module | YuXuan255</title>
+<title>Ubuntu24.04从入门到入坟 | YuXuan255</title>
   
 
 
@@ -137,7 +142,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">问题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">2.</span> <span class="nav-text">解决</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">2.</span> <span class="nav-text">输入法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A6%81%E7%94%A8shift%E5%88%87%E6%8D%A2%E4%B8%AD%E8%8B%B1%E6%96%87%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-number">2.1.</span> <span class="nav-text">禁用shift切换中英文快捷键</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E8%AF%AD"><span class="nav-number">2.2.</span> <span class="nav-text">自定义短语</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">3.</span> <span class="nav-text">截图软件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E6%88%AA%E5%9B%BE%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98"><span class="nav-number">3.1.</span> <span class="nav-text">解决截图失败问题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">4.</span> <span class="nav-text">桌面优化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B0%E7%AA%97%E5%8F%A3%E5%B1%85%E4%B8%AD%E5%87%BA%E7%8E%B0"><span class="nav-number">4.1.</span> <span class="nav-text">新窗口居中出现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%82%B9%E5%87%BBdock%E5%9B%BE%E6%A0%87%E6%97%B6%E6%9C%80%E5%B0%8F%E5%8C%96%E7%AA%97%E5%8F%A3"><span class="nav-number">4.2.</span> <span class="nav-text">点击dock图标时最小化窗口</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">5.</span> <span class="nav-text">终端</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">6.</span> <span class="nav-text">杂项</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3picgo%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E5%A4%B1%E8%B4%A5%E9%97%AE%E9%A2%98"><span class="nav-number">6.1.</span> <span class="nav-text">解决picgo上传图片失败问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%91%86%E8%84%B1snap"><span class="nav-number">6.2.</span> <span class="nav-text">摆脱snap</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E8%8D%A3%E8%80%80%E7%AC%94%E8%AE%B0%E6%9C%AC%E8%A7%A6%E6%8E%A7%E6%9D%BF%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98"><span class="nav-number">6.3.</span> <span class="nav-text">解决荣耀笔记本触控板无法使用问题</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -205,7 +210,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/%E8%A7%A3%E5%86%B3AttributeError%20Can't%20get%20attribute%20on%20module/">
+    <link itemprop="mainEntityOfPage" href="http://yuxuan255.github.io/%E6%8A%80%E6%9C%AF/%E6%9D%82%E9%A1%B9/Ubuntu24.04%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%85%A5%E5%9D%9F/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.webp">
@@ -218,12 +223,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="解决AttributeError Can&#39;t get attribute on module | YuXuan255">
-      <meta itemprop="description" content="解决windows上jupyter多进程报错AttributeError问题">
+      <meta itemprop="name" content="Ubuntu24.04从入门到入坟 | YuXuan255">
+      <meta itemprop="description" content="一些个人配置以及bug解决">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          解决AttributeError Can't get attribute on module
+          Ubuntu24.04从入门到入坟
         </h1>
 
         <div class="post-meta-container">
@@ -235,7 +240,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2025-07-08 18:01:37 / 修改时间：18:27:42" itemprop="dateCreated datePublished" datetime="2025-07-08T18:01:37+08:00">2025-07-08</time>
+      <time title="创建时间：2026-02-08 23:32:19 / 修改时间：23:42:35" itemprop="dateCreated datePublished" datetime="2026-02-08T23:32:19+08:00">2026-02-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -254,24 +259,55 @@
   
 </div>
 
-            <div class="post-description">解决windows上jupyter多进程报错AttributeError问题</div>
+            <div class="post-description">一些个人配置以及bug解决</div>
         </div>
       </header>
 
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>之前本地跑大作业时遇上的神秘问题，有点抽象，遂记录一下。</p>
-<h1>问题</h1>
-<p>本地跑大作业的模型训练时一直卡着不动，看jupyter命令行发现报错:<code>AttributeError: Can't get attribute 'FashionDataset' on &lt;module '__main__' (&lt;class '_frozen_importlib.BuiltinImporter'&gt;)&gt;</code><br>
-在网上搜索一番后在<a target="_blank" rel="noopener" href="https://juejin.cn/post/7017712084892794910">这篇文章</a>发现了问题原因:</p>
-<blockquote>
-<p>实际上这个地方：在linux中使用的是fork的方式，可以复制公共变量和方法到新开启的进程中，但是windows中是重建一个新的进程(全新)，在进程中并不存在公共的变量和方法，所以会出现这个问题，未能导入模块中定义的对象</p>
-</blockquote>
-<h1>解决</h1>
-<p>把出问题的代码(我这里是FashionDataset类)打包成一个单独的.py文件再import进来就行。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># dataset.py</span></span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> gzip</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">from</span> torch.utils.data <span class="keyword">import</span> Dataset</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FashionDataset</span>(<span class="title class_ inherited__">Dataset</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, datadir, transform, is_train=<span class="literal">True</span></span>):</span><br><span class="line">        <span class="built_in">super</span>().__init__()</span><br><span class="line">        <span class="variable language_">self</span>.datadir = datadir</span><br><span class="line">        <span class="variable language_">self</span>.transform = transform</span><br><span class="line">        <span class="variable language_">self</span>.img, <span class="variable language_">self</span>.label = <span class="variable language_">self</span>.load_data(datadir, is_train)</span><br><span class="line">        <span class="variable language_">self</span>.len_data = <span class="built_in">len</span>(<span class="variable language_">self</span>.img)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__getitem__</span>(<span class="params">self, index</span>):</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>.transform(<span class="variable language_">self</span>.img[index]), <span class="variable language_">self</span>.label[index]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__len__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>.len_data</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">load_data</span>(<span class="params">self, datadir, is_train</span>):</span><br><span class="line">        dirname = os.path.join(datadir)</span><br><span class="line">        files = [<span class="string">&#x27;train-labels-idx1-ubyte.gz&#x27;</span>, <span class="string">&#x27;train-images-idx3-ubyte.gz&#x27;</span>,</span><br><span class="line">                 <span class="string">&#x27;t10k-labels-idx1-ubyte.gz&#x27;</span>, <span class="string">&#x27;t10k-images-idx3-ubyte.gz&#x27;</span>]</span><br><span class="line">        paths = [os.path.join(dirname, f) <span class="keyword">for</span> f <span class="keyword">in</span> files]</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> is_train:</span><br><span class="line">            <span class="keyword">with</span> gzip.<span class="built_in">open</span>(paths[<span class="number">0</span>], <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> lbpath:</span><br><span class="line">                label = np.frombuffer(lbpath.read(), np.uint8, offset=<span class="number">8</span>)</span><br><span class="line">            <span class="keyword">with</span> gzip.<span class="built_in">open</span>(paths[<span class="number">1</span>], <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> imgpath:</span><br><span class="line">                img = np.frombuffer(imgpath.read(), np.uint8,</span><br><span class="line">                                    offset=<span class="number">16</span>).reshape(<span class="built_in">len</span>(label), <span class="number">28</span>, <span class="number">28</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">with</span> gzip.<span class="built_in">open</span>(paths[<span class="number">2</span>], <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> lbpath:</span><br><span class="line">                label = np.frombuffer(lbpath.read(), np.uint8, offset=<span class="number">8</span>)</span><br><span class="line">            <span class="keyword">with</span> gzip.<span class="built_in">open</span>(paths[<span class="number">3</span>], <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> imgpath:</span><br><span class="line">                img = np.frombuffer(imgpath.read(), np.uint8,</span><br><span class="line">                                    offset=<span class="number">16</span>).reshape(<span class="built_in">len</span>(label), <span class="number">28</span>, <span class="number">28</span>)</span><br><span class="line">        <span class="keyword">return</span> img, label</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>然后在主文件中<code>from dataset import FashionDataset</code>就行</p>
+    <div class="post-body" itemprop="articleBody"><p>给笔记本装了个双系统，记录一下</p>
+<h1>安装</h1>
+<p>教程很多懒得写了，我使用的工具是ventory，由于装双系统之前已经分了盘所以用diskgenius重新分配了一下空间。</p>
+<h1>输入法</h1>
+<p><a target="_blank" rel="noopener" href="https://github.com/iDvel/rime-ice">雾凇输入法</a><br>
+我使用的框架是fcitx5</p>
+<h2 id="禁用shift切换中英文快捷键">禁用shift切换中英文快捷键</h2>
+<p>找到rime目录，把<code>default.yaml</code>里面的<code>ascii_composer: switch_key: Shift_L</code>设定为<code>noop</code><br>
+我更习惯用ctrl+空格，可以这样设置：<br>
+<img src="https://image-host-1358252802.cos.ap-beijing.myqcloud.com/img/20260131214219081.webp?imageSlim" alt="image.png"></p>
+<h2 id="自定义短语">自定义短语</h2>
+<p>我习惯于把中文标点符号全部放到自定义短语，如下所示：<br>
+<img src="https://image-host-1358252802.cos.ap-beijing.myqcloud.com/img/20260131211842473.webp?imageSlim" alt="image.png"></p>
+<p>我只是不习惯往角落里去抠那几个符号，对我来说这样更舒服因为不难发现dhj都在靠近键盘中心的位置。<br>
+同时还能做到：让我方便地打出「直角引号」<br>
+可以通过修改<code>custom_phrase.txt</code>来做到这一点，格式为<code>词汇&lt;Tab&gt;编码&lt;Tab&gt;权重</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">，	dh	2</span><br><span class="line">、	dh	1</span><br><span class="line">。	jh</span><br><span class="line">「」	yh	3</span><br><span class="line">“”	yh	2</span><br><span class="line">『 』	yh	1</span><br><span class="line">！	gth</span><br><span class="line">：	mh</span><br><span class="line">？	wh</span><br></pre></td></tr></table></figure>
+<h1>截图软件</h1>
+<p><code>sudo apt install flameshot</code></p>
+<h2 id="解决截图失败问题">解决截图失败问题</h2>
+<p>设置自定义快捷键<br>
+<img src="https://image-host-1358252802.cos.ap-beijing.myqcloud.com/img/20260131211724492.webp?imageSlim" alt="image.png"></p>
+<h1>桌面优化</h1>
+<h2 id="新窗口居中出现">新窗口居中出现</h2>
+<p><code>Tweaks &gt; Windows &gt; center new windows</code>开启</p>
+<h2 id="点击dock图标时最小化窗口">点击dock图标时最小化窗口</h2>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/585280693">参考文章</a><br>
+tl;dr:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gsettings <span class="built_in">set</span> org.gnome.shell.extensions.dash-to-dock click-action <span class="string">&#x27;minimize or previews&#x27;</span></span><br></pre></td></tr></table></figure>
+<h1>终端</h1>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_72357534/article/details/135453423">参考文章</a></p>
+<h1>杂项</h1>
+<h2 id="解决picgo上传图片失败问题">解决picgo上传图片失败问题</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install wl-clipboard</span><br></pre></td></tr></table></figure>
+<h2 id="摆脱snap">摆脱snap</h2>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/1984805802620514960">参考文章</a></p>
+<h2 id="解决荣耀笔记本触控板无法使用问题">解决荣耀笔记本触控板无法使用问题</h2>
+<p>感谢<a href="../../../link/">Mitchell</a>大佬的帮助🙏</p>
+<p>电脑型号：荣耀Magicbook Art 14</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install libinput-bin libinput-tools</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">mkdir</span> -p /etc/libinput</span><br><span class="line"><span class="built_in">sudo</span> nano /etc/libinput/local-overrides.quirks</span><br></pre></td></tr></table></figure>
+<p>然后往里写：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[MagicBook Art 14]</span><br><span class="line">MatchName=*TOPS0102*</span><br><span class="line">ModelPressurePad=1</span><br><span class="line">AttrEventCode=-BTN_RIGHT</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -281,21 +317,22 @@
 
     <footer class="post-footer">
           <div class="post-tags">
+              <a href="/tags/Ubuntu/" rel="tag"># Ubuntu</a>
+              <a href="/tags/Linux/" rel="tag"># Linux</a>
               <a href="/tags/bug/" rel="tag"># bug</a>
-              <a href="/tags/Python/" rel="tag"># Python</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/%E5%AD%A6%E4%B9%A0/NTU-ML-2022/ML2022-Lecture1-Notes/" rel="prev" title="ML2022-Lecture1-Notes">
-                  <i class="fa fa-angle-left"></i> ML2022-Lecture1-Notes
+                <a href="/%E7%94%9F%E6%B4%BB/%E8%BF%9F%E5%88%B0%E4%B8%A4%E5%91%A8%E7%9A%842025%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" rel="prev" title="迟到两周的2025年终总结">
+                  <i class="fa fa-angle-left"></i> 迟到两周的2025年终总结
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/%E7%94%9F%E6%B4%BB/%E5%91%A8%E8%AE%B0/2025-09-14-%E5%91%A8%E6%97%A5-%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/" rel="next" title="2025-09-14-周日-一周总结">
-                  2025-09-14-周日-一周总结 <i class="fa fa-angle-right"></i>
+                <a href="/%E7%94%9F%E6%B4%BB/%E5%91%A8%E8%AE%B0/2026-02-08-%E5%91%A8%E6%97%A5-%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/" rel="next" title="2026-02-08-周日-一周总结">
+                  2026-02-08-周日-一周总结 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
