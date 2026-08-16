@@ -1,0 +1,18 @@
+package-lock.json
+  h_da6fd0bc394304 14,1113-1121,5145
+package.json
+  h_da6fd0bc394304 22
+src/styles/global.css
+  h_da6fd0bc394304 2,17-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "70e33efd8541119e92a171529dd2d929d21bd7e9",
+  "prompts": {},
+  "humans": {
+    "h_da6fd0bc394304": {
+      "author": "Yuxuan Du <duyuxuan@ruc.edu.cn>"
+    }
+  }
+}
