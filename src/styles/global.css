@@ -1,5 +1,4 @@
 @import "katex/dist/katex.min.css";
-@import "@fontsource-variable/noto-sans-sc";
 
 :root {
   --bg: #ffffff;
@@ -12,10 +11,8 @@
 
   --content-width: 44rem;
 
-  /* 不用 system-ui / -apple-system:中文 Windows 与 macOS 会把它们解析到雅黑/苹方,
-     中文字形在栈首就被截住,永远轮不到 Noto webfont */
   --font-body:
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC Variable",
+    system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
     "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   --font-mono:
     ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",
