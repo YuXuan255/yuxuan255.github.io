@@ -1,0 +1,14 @@
+src/styles/global.css
+  h_da6fd0bc394304 15-16,18-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "d1b2c83d3b6209e387f4609d71e70cc817043d5e",
+  "prompts": {},
+  "humans": {
+    "h_da6fd0bc394304": {
+      "author": "Yuxuan Du <duyuxuan@ruc.edu.cn>"
+    }
+  }
+}
