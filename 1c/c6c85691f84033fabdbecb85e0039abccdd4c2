@@ -1,0 +1,14 @@
+package-lock.json
+  h_da6fd0bc394304 686-707,714
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "1cc6c85691f84033fabdbecb85e0039abccdd4c2",
+  "prompts": {},
+  "humans": {
+    "h_da6fd0bc394304": {
+      "author": "Yuxuan Du <duyuxuan@ruc.edu.cn>"
+    }
+  }
+}
