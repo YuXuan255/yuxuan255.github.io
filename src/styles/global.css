@@ -12,10 +12,11 @@
 
   --content-width: 44rem;
 
+  /* 不用 system-ui / -apple-system:中文 Windows 与 macOS 会把它们解析到雅黑/苹方,
+     中文字形在栈首就被截住,永远轮不到 Noto webfont */
   --font-body:
-    system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-    "Noto Sans SC Variable", "PingFang SC", "Hiragino Sans GB",
-    "Microsoft YaHei", sans-serif;
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC Variable",
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   --font-mono:
     ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",
     monospace;
