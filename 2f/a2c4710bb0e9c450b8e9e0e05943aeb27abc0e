@@ -1,0 +1,19 @@
+src/styles/global.css
+  s_e8bc5c799cc34d::t_044fba1789b8fd 595-600
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "2fa2c4710bb0e9c450b8e9e0e05943aeb27abc0e",
+  "prompts": {},
+  "sessions": {
+    "s_e8bc5c799cc34d": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0205e5ed5ffeBDu7V9dvhBbF8S",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Yuxuan Du <duyuxuan@ruc.edu.cn>"
+    }
+  }
+}
