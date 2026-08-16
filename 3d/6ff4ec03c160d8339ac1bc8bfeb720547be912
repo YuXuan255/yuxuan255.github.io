@@ -1,0 +1,273 @@
+src/data/now.ts
+  h_da6fd0bc394304 1-4
+src/content/journal/2026-07-19.md
+  s_e8bc5c799cc34d::t_ccbaaaf23c6776 1-7
+src/content/journal/2026-08-12.md
+  s_e8bc5c799cc34d::t_c37522664b97e2 1-6
+src/content/journal/2026-08-07.md
+  s_e8bc5c799cc34d::t_c37522664b97e2 6
+  s_e8bc5c799cc34d::t_f9783ba9debccc 1-5
+src/pages/index.astro
+  h_da6fd0bc394304 1-44
+.gitignore
+  s_e8bc5c799cc34d::t_61eae15a6dc16f 4
+  s_e8bc5c799cc34d::t_04edb2f2731d7c 5-7
+  s_e8bc5c799cc34d::t_70aa37901102bb 1-3
+src/content/writing/orbit-wars-writeup-bc-is-all-you-need.md
+  s_e8bc5c799cc34d::t_7c1f8d9c26d08a 1,5-9,12,14-18,21-24,26-27,29-41,43-91,105-215,228-234,239-263,276-280,290-316,321-341
+  s_e8bc5c799cc34d::t_72d8b4c2a36cff 2,4,10-11
+  s_e8bc5c799cc34d::t_54c4bdeac43c12 235-238
+  s_e8bc5c799cc34d::t_d553cbfc13515f 20
+  h_da6fd0bc394304 3
+  s_e8bc5c799cc34d::t_58946705dcc43d 13,19,28,42,92-104,216-227,343
+  s_e8bc5c799cc34d::t_22848f7f732f86 25
+  s_e8bc5c799cc34d::t_9f38c2c43fa655 264-275,281-289,317-320,342
+src/content/journal/2026-07-16.md
+  s_e8bc5c799cc34d::t_c37522664b97e2 6
+  s_e8bc5c799cc34d::t_ccbaaaf23c6776 1-5
+src/content/journal/2026-07-13.md
+  s_e8bc5c799cc34d::t_ccbaaaf23c6776 1-8
+src/content/journal/2026-08-13.md
+  s_e8bc5c799cc34d::t_c37522664b97e2 1-6
+src/data/friends.ts
+  h_da6fd0bc394304 1-10,12-15,19
+  s_e8bc5c799cc34d::t_15f0d32e4096dd 11,16-18
+src/content/journal/2026-07-14.md
+  s_e8bc5c799cc34d::t_ccbaaaf23c6776 1-8
+src/styles/global.css
+  s_e8bc5c799cc34d::t_e0bc1d840ec610 188
+  s_e8bc5c799cc34d::t_a634a1fbebd428 154,173,177,187,239,280,284,286,289-292,299,360,389
+  s_e8bc5c799cc34d::t_5ad7e4b7644f03 23,27,31,40,44,50,58,64,68,72,76,81,85,93,98,101,104,108,115,117,121,129,133-134,139,143,149,155,157,161,164,167,174,179,232,240,244,248,251,255,261,266,270,274,276-279,281-283,285,287-288,293-295,300,307,310,315,323,327,331,333,337,341,344,349,355,361,368,374,378,381,384,390,397,403,407,410,412,418,426,429,435,439,444,448,452,460,464,468,472,476,482,485-486,489-490,494,498,504-505,509,517,522,532,540,546,553,561,566,570,576,580,584,587,625,635
+  s_e8bc5c799cc34d::t_0c29a64ec1c767 227
+  s_e8bc5c799cc34d::t_511ba501f74b48 35,189,193-194
+  s_e8bc5c799cc34d::t_9601579342eafb 36,107,147-148,170-172,178,186,190-192,200-202,215,219,221-225,228-231,259-260,264,321,373,402,457,467,565
+  s_e8bc5c799cc34d::t_d7537ed4114f18 61,176,181-185,195-199,203-214,216-218,220,235,243,247,253,312,326,353,377,383,406,438
+  s_e8bc5c799cc34d::t_1dcb328438ca96 226
+  s_e8bc5c799cc34d::t_9c629b7c2bd5ee 20-22
+  s_e8bc5c799cc34d::t_4731549ce270bf 24-26
+  s_e8bc5c799cc34d::t_e6f09b0902f623 28-30
+  s_e8bc5c799cc34d::t_d3d1e8d235e57b 32-34
+  s_e8bc5c799cc34d::t_0d5abab97a9783 37-39
+  s_e8bc5c799cc34d::t_d09075499a7e61 41-43
+  s_e8bc5c799cc34d::t_2eccd69403d610 45-49
+  s_e8bc5c799cc34d::t_6350fce7a685c4 51-53,55-57
+  s_e8bc5c799cc34d::t_2486966b43a9ad 59-60
+  s_e8bc5c799cc34d::t_ef6ff433db426c 62-63
+  s_e8bc5c799cc34d::t_e6ed05340e7591 65-67
+  s_e8bc5c799cc34d::t_ab765a6c13ff58 69-71
+  s_e8bc5c799cc34d::t_83470c0140d5f5 73-75
+  s_e8bc5c799cc34d::t_ed923a36c9d418 77-80
+  s_e8bc5c799cc34d::t_32e47cc4e70453 82-84
+  s_e8bc5c799cc34d::t_f2e64fa6c44b2f 86-88,90-92
+  s_e8bc5c799cc34d::t_b5cbcd0695833a 94-97
+  s_e8bc5c799cc34d::t_bd5853f124cc83 99-100
+  s_e8bc5c799cc34d::t_dbbfd9edb7bf66 102-103
+  s_e8bc5c799cc34d::t_f0261f6d00282e 105-106
+  s_e8bc5c799cc34d::t_4b003317229611 109-114
+  s_e8bc5c799cc34d::t_208893b4176550 116
+  s_e8bc5c799cc34d::t_9be6f441149048 118-120
+  s_e8bc5c799cc34d::t_2ac5b188ce18bd 122-124,126-128
+  s_e8bc5c799cc34d::t_0fbd58501b5f35 130-132
+  s_e8bc5c799cc34d::t_b641d4d2840fe4 135-138
+  s_e8bc5c799cc34d::t_cce7dfd5d7144d 140-142
+  s_e8bc5c799cc34d::t_7a7bc27284ae33 144-146
+  s_e8bc5c799cc34d::t_2678569f8521a1 150-153
+  s_e8bc5c799cc34d::t_caf5c1e4908193 156
+  s_e8bc5c799cc34d::t_5b308ed867398e 158-160
+  s_e8bc5c799cc34d::t_9c0cac7816c488 162-163
+  s_e8bc5c799cc34d::t_7711e295c9e2fa 165-166
+  s_e8bc5c799cc34d::t_ea15efaa8a1021 168-169
+  s_e8bc5c799cc34d::t_50127c90507caa 175
+  s_e8bc5c799cc34d::t_7f4f0251f41803 180
+  s_e8bc5c799cc34d::t_138f63c1864a12 233-234
+  s_e8bc5c799cc34d::t_52495a76630d5e 236-238
+  s_e8bc5c799cc34d::t_0bf0fe48d913c8 241-242
+  s_e8bc5c799cc34d::t_1c65fc6ec2ea3a 245-246
+  s_e8bc5c799cc34d::t_a0d40b455bd37d 249-250
+  s_e8bc5c799cc34d::t_cc930cd0984bba 252
+  s_e8bc5c799cc34d::t_219acc519724ca 254
+  s_e8bc5c799cc34d::t_3049f2934df42c 256-258
+  s_e8bc5c799cc34d::t_9bbd2e1a604fdd 262-263
+  s_e8bc5c799cc34d::t_3d5e97655eda47 265
+  s_e8bc5c799cc34d::t_9da8bc2fae251a 267-269
+  s_e8bc5c799cc34d::t_8987a62ccb705a 271-273
+  s_e8bc5c799cc34d::t_c9129d858be7f3 275
+  s_e8bc5c799cc34d::t_4cee413ae9f9cb 296-298
+  s_e8bc5c799cc34d::t_e3d25faea66f03 301-306
+  s_e8bc5c799cc34d::t_5821c14ff59cef 308-309
+  s_e8bc5c799cc34d::t_bd9ab150a826b8 311
+  s_e8bc5c799cc34d::t_d5bb7b2a0b1426 313-314
+  s_e8bc5c799cc34d::t_7eceecf5de404c 316-320
+  s_e8bc5c799cc34d::t_3c2abe4f805c53 322
+  s_e8bc5c799cc34d::t_8d80c4a4d07be4 324-325
+  s_e8bc5c799cc34d::t_cc3b654422f058 328-330
+  s_e8bc5c799cc34d::t_443e8660ddbab4 332
+  s_e8bc5c799cc34d::t_10dcc884d6ecbf 334-336
+  s_e8bc5c799cc34d::t_3c4e6d7acd2933 338-340
+  s_e8bc5c799cc34d::t_7601974c28c41e 342-343
+  s_e8bc5c799cc34d::t_6c93d99513e700 345-348
+  s_e8bc5c799cc34d::t_4f5cb7aae20e96 350-352
+  s_e8bc5c799cc34d::t_3ea90cb9ed78d2 354
+  s_e8bc5c799cc34d::t_c35f2501b47608 356-359
+  s_e8bc5c799cc34d::t_3a1f05c948f07f 362-367
+  s_e8bc5c799cc34d::t_67b919a234e1b9 369-372
+  s_e8bc5c799cc34d::t_a2ea6d68d19b58 375-376
+  s_e8bc5c799cc34d::t_e0b2eca0b46319 379-380
+  s_e8bc5c799cc34d::t_785d9c0ad9624f 382
+  s_e8bc5c799cc34d::t_1ebcbb84c6ebaa 385-388
+  s_e8bc5c799cc34d::t_b90d8df18d44cd 391-396
+  s_e8bc5c799cc34d::t_ea1d6d5e666e42 398-401
+  s_e8bc5c799cc34d::t_7ab55dfe704cd9 404-405
+  s_e8bc5c799cc34d::t_5ad35dd2a2024d 408-409
+  s_e8bc5c799cc34d::t_c1276dafaa3ad6 411
+  s_e8bc5c799cc34d::t_76facfe2247843 413-417
+  s_e8bc5c799cc34d::t_e1e1350500c4ae 419-421,423-425
+  s_e8bc5c799cc34d::t_eccaf0172d6837 427-428
+  s_e8bc5c799cc34d::t_5779332e30d055 430-434
+  s_e8bc5c799cc34d::t_d45e80d6cf9983 436-437
+  s_e8bc5c799cc34d::t_8e47b768bf9c6d 440-443
+  s_e8bc5c799cc34d::t_51f674f09219a3 445-447
+  s_e8bc5c799cc34d::t_ead7646bc617c5 449-451
+  s_e8bc5c799cc34d::t_90f04fa729c24f 453-456
+  s_e8bc5c799cc34d::t_7aa5229e7aef51 458-459
+  s_e8bc5c799cc34d::t_493db6cd13b43f 461-463
+  s_e8bc5c799cc34d::t_da3e3ff1a42790 465-466
+  s_e8bc5c799cc34d::t_dabddeac14d49c 469-471
+  s_e8bc5c799cc34d::t_5683533985f4e6 473-475
+  s_e8bc5c799cc34d::t_f21df9b26285df 477-481
+  s_e8bc5c799cc34d::t_b67a2dcda5e360 483-484
+  s_e8bc5c799cc34d::t_853bdfbd20ac6f 487-488
+  s_e8bc5c799cc34d::t_e9328be94bb319 491-493
+  s_e8bc5c799cc34d::t_38f332d3be998f 495-497
+  s_e8bc5c799cc34d::t_aa23d05a9938a2 499-503
+  s_e8bc5c799cc34d::t_c7be00c587cd0b 506-508
+  s_e8bc5c799cc34d::t_fb79b46ce2abc4 510-512,514-516
+  s_e8bc5c799cc34d::t_adc8cb95e0914f 518-521
+  s_e8bc5c799cc34d::t_f4892859b5d326 523-525,529-531
+  s_e8bc5c799cc34d::t_91646083ca8cc6 533-535,537-539
+  s_e8bc5c799cc34d::t_5d09b8766db988 541-545
+  s_e8bc5c799cc34d::t_7dfcae92cedb1f 547-552
+  s_e8bc5c799cc34d::t_622fb6e9db817d 554-556,558-560
+  s_e8bc5c799cc34d::t_aafefb66d071a1 562-564
+  s_e8bc5c799cc34d::t_e710756617b1de 567-569
+  s_e8bc5c799cc34d::t_26ed86c8d0e644 571-575
+  s_e8bc5c799cc34d::t_612cb041d468ce 577-579
+  s_e8bc5c799cc34d::t_132ca82cda704f 581-583
+  s_e8bc5c799cc34d::t_9d819d2f2dcc8a 585-586
+  s_e8bc5c799cc34d::t_399192f21e02ce 588-590,622-624
+  s_e8bc5c799cc34d::t_61823ffbc9f3a9 626-628,632-634
+  h_da6fd0bc394304 1-19,54,89,125,422,513,526-528,536,557,591-621,629-631
+scripts/split-journal.mjs
+  s_e8bc5c799cc34d::t_a1495e934521e3 2-22,24-67
+  s_e8bc5c799cc34d::t_16d592ec437480 23
+  s_e8bc5c799cc34d::t_4e1ac0164fb03e 68
+  s_e8bc5c799cc34d::t_007f09efb22a07 1
+src/pages/about.astro
+  s_e8bc5c799cc34d::t_bad64a16eac28f 7
+  s_e8bc5c799cc34d::t_4937838658e802 4-6
+  s_e8bc5c799cc34d::t_44b960ddc4193b 8
+  h_da6fd0bc394304 1-3
+src/pages/journal/index.astro
+  s_e8bc5c799cc34d::t_ce925064088e8e 43-61
+  s_e8bc5c799cc34d::t_9cdd470d33ea03 19-23
+  s_e8bc5c799cc34d::t_bffbe62237dc72 4-18,24-31,39-42
+  s_e8bc5c799cc34d::t_832025aa2b78a4 36
+  s_e8bc5c799cc34d::t_8139169f27dd5d 1-3
+  s_e8bc5c799cc34d::t_94f61bf4754d61 32-35
+  s_e8bc5c799cc34d::t_d945de8efc72e5 37-38
+  s_e8bc5c799cc34d::t_1e7465e1016301 62-64
+  s_e8bc5c799cc34d::t_b1d0acfa981d94 65-67
+src/content/journal/2026-08-10.md
+  s_e8bc5c799cc34d::t_aad92a8e35c923 1-5
+  s_e8bc5c799cc34d::t_c37522664b97e2 6
+src/content/journal/2026-07-15.md
+  s_e8bc5c799cc34d::t_ccbaaaf23c6776 1-7
+src/content/writing/ubuntu-24-04-lts-notes.md
+  s_e8bc5c799cc34d::t_dd8bec8d8ba676 13,17
+  s_e8bc5c799cc34d::t_db6c1e9b64912b 26-27
+  s_e8bc5c799cc34d::t_0ffe4b030aae4e 1-2,5-12,14-16,19-22,24-25,28-32,34-37,39-43,45-47,51-57,59-65,67-69,71-75,77-81,83,85-89
+  s_e8bc5c799cc34d::t_3849b840ee1244 18,23,33,38,44,48,58,66,70,76,82,84,90
+  h_da6fd0bc394304 3
+  s_e8bc5c799cc34d::t_1a12b3db67f2de 4
+  s_e8bc5c799cc34d::t_354de22ba1ea9d 49
+  s_e8bc5c799cc34d::t_e8e70b5e4803df 50
+src/content/journal/2026-07-23.md
+  s_e8bc5c799cc34d::t_ccbaaaf23c6776 1-5
+  s_e8bc5c799cc34d::t_c37522664b97e2 6
+src/content/journal/2026-08-14.md
+  s_e8bc5c799cc34d::t_c37522664b97e2 1-6
+src/content/journal/2026-08-11.md
+  s_e8bc5c799cc34d::t_c37522664b97e2 1-6
+src/content/journal/2026-08-04.md
+  s_e8bc5c799cc34d::t_f02d96a082ae8d 1-5
+  s_e8bc5c799cc34d::t_c37522664b97e2 6
+.github/workflows/deploy.yml
+  h_da6fd0bc394304 1-48
+.prettierrc.json
+  h_da6fd0bc394304 1-3
+README.md
+  h_da6fd0bc394304 1-18
+astro.config.mjs
+  h_da6fd0bc394304 1-16
+package-lock.json
+  h_da6fd0bc394304 1-6768
+package.json
+  h_da6fd0bc394304 1-34
+scripts/check-content.mjs
+  h_da6fd0bc394304 1-84
+scripts/check-links.mjs
+  h_da6fd0bc394304 1-84
+src/components/ArticleList.astro
+  h_da6fd0bc394304 1-48
+src/components/Footer.astro
+  h_da6fd0bc394304 1-10
+src/components/Header.astro
+  h_da6fd0bc394304 1-18
+src/content.config.ts
+  h_da6fd0bc394304 1-26
+src/content/journal/2026-08-08.md
+  h_da6fd0bc394304 1-6
+src/layouts/Base.astro
+  h_da6fd0bc394304 1-40
+src/layouts/Post.astro
+  h_da6fd0bc394304 1-37
+src/lib/posts.ts
+  h_da6fd0bc394304 1-20
+src/lib/tags.ts
+  h_da6fd0bc394304 1-28
+src/pages/friends.astro
+  h_da6fd0bc394304 1-24
+src/pages/rss.xml.ts
+  h_da6fd0bc394304 1-18
+src/pages/tags/[tag].astro
+  h_da6fd0bc394304 1-24
+src/pages/tags/index.astro
+  h_da6fd0bc394304 1-20
+src/pages/writing/[slug].astro
+  h_da6fd0bc394304 1-23
+src/pages/writing/index.astro
+  h_da6fd0bc394304 1-12
+tsconfig.json
+  h_da6fd0bc394304 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3d6ff4ec03c160d8339ac1bc8bfeb720547be912",
+  "prompts": {},
+  "humans": {
+    "h_da6fd0bc394304": {
+      "author": "Yuxuan Du <duyuxuan@ruc.edu.cn>"
+    }
+  },
+  "sessions": {
+    "s_e8bc5c799cc34d": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0205e5ed5ffeBDu7V9dvhBbF8S",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Yuxuan Du <duyuxuan@ruc.edu.cn>"
+    }
+  }
+}
