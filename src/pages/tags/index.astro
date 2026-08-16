@@ -1,0 +1,20 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getTags } from "../../lib/tags";
+
+const tags = await getTags();
+---
+
+<Base title="Tags · YuXuan255" description="按标签浏览文章">
+  <h1>Tags</h1>
+  <ul class="tag-list">
+    {
+      tags.map(({ name, slug, posts }) => (
+        <li>
+          <a href={`/tags/${slug}/`}>{name}</a>
+          <span class="tag-count">{posts.length}</span>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

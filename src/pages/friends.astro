@@ -1,0 +1,24 @@
+---
+import Base from "../layouts/Base.astro";
+import { friends } from "../data/friends";
+---
+
+<Base title="Friends · YuXuan255" description="友链">
+  <h1>Friends</h1>
+  {
+    friends.length > 0 ? (
+      <ul class="friend-list">
+        {friends.map((friend) => (
+          <li>
+            <a class="friend-name" href={friend.url} target="_blank">
+              {friend.name}
+            </a>
+            <span class="friend-description">{friend.description}</span>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="notice">友链尚未添加,后续在这里收录。</p>
+    )
+  }
+</Base>

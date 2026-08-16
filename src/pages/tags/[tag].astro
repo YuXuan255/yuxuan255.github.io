@@ -1,0 +1,24 @@
+---
+import Base from "../../layouts/Base.astro";
+import ArticleList from "../../components/ArticleList.astro";
+import { getPosts } from "../../lib/posts";
+import { getTags, tagSlug } from "../../lib/tags";
+
+export async function getStaticPaths() {
+  const tags = await getTags();
+  return tags.map((tag) => ({
+    params: { tag: tag.slug },
+    props: { tag: tag.name },
+  }));
+}
+
+const { tag } = Astro.props;
+const posts = (await getPosts()).filter((post) =>
+  post.data.tags.some((t) => tagSlug(t) === tagSlug(tag)),
+);
+---
+
+<Base title={`${tag} · YuXuan255`} description={`标签 ${tag} 下的文章`}>
+  <h1>{tag}</h1>
+  <ArticleList entries={posts} showDescription={true} />
+</Base>

@@ -1,0 +1,44 @@
+---
+import Base from "../layouts/Base.astro";
+import ArticleList from "../components/ArticleList.astro";
+import { getPosts } from "../lib/posts";
+import { now } from "../data/now";
+
+const all = await getPosts();
+const featured = all.filter((post) => post.data.featured).slice(0, 3);
+const recent = all.slice(0, 5);
+---
+
+<Base title="YuXuan255">
+  <section class="hero">
+    <h1>YuXuan255</h1>
+    <p>个人博客，存放比赛复盘、项目记录、个人笔记等，不定期更新日记。</p>
+  </section>
+
+  {
+    featured.length > 0 && (
+      <section class="section">
+        <h2>Selected Writing</h2>
+        <ArticleList entries={featured} showDescription={true} />
+      </section>
+    )
+  }
+
+  <section class="section">
+    <h2>Recent Writing</h2>
+    <ArticleList entries={recent} showDescription={true} />
+  </section>
+
+  {
+    now.length > 0 && (
+      <section class="section">
+        <h2>Currently working on</h2>
+        <ul class="now-list">
+          {now.map((item) => (
+            <li>{item}</li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+</Base>

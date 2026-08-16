@@ -1,0 +1,67 @@
+---
+import Base from "../../layouts/Base.astro";
+import { render } from "astro:content";
+import { getJournal, type JournalEntry } from "../../lib/posts";
+
+const entries = await getJournal();
+
+type MonthGroup = { month: string; entries: JournalEntry[] };
+const groups: MonthGroup[] = [];
+for (const entry of entries) {
+  const month = entry.data.date.toISOString().slice(0, 7);
+  const last = groups[groups.length - 1];
+  if (last && last.month === month) {
+    last.entries.push(entry);
+  } else {
+    groups.push({ month, entries: [entry] });
+  }
+}
+for (const group of groups) {
+  group.entries = group.entries.sort(
+    (a, b) => a.data.date.getTime() - b.data.date.getTime(),
+  );
+}
+
+const rendered = await Promise.all(
+  entries.map(async (entry) => {
+    const { Content } = await render(entry);
+    return { id: entry.id, Content };
+  }),
+);
+const contentByEntry = new Map(rendered.map((r) => [r.id, r.Content]));
+---
+
+<Base title="Journal · YuXuan255" description="不定期日志">
+  <h1>Journal</h1>
+  <p class="notice">不定期记录近况与零散想法，按月份折叠，点击日期展开。</p>
+  <div class="journal-list">
+    {
+      groups.map((group, index) => (
+        <details class="journal-month" open={index === 0}>
+          <summary>{group.month}</summary>
+          <div class="journal-month-body">
+            {group.entries.map((entry) => {
+              const Content = contentByEntry.get(entry.id);
+              return (
+                <details
+                  class="journal-item"
+                  id={entry.data.date.toISOString().slice(0, 10)}
+                >
+                  <summary>
+                    <time datetime={entry.data.date.toISOString()}>
+                      {entry.data.date.toISOString().slice(0, 10)}
+                    </time>
+                    {entry.data.title && (
+                      <span class="journal-title">{entry.data.title}</span>
+                    )}
+                  </summary>
+                  <div class="journal-body">{Content && <Content />}</div>
+                </details>
+              );
+            })}
+          </div>
+        </details>
+      ))
+    }
+  </div>
+</Base>

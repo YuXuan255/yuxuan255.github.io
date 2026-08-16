@@ -1,0 +1,18 @@
+---
+const nav = [
+  { label: "Home", href: "/" },
+  { label: "Writing", href: "/writing/" },
+  { label: "Journal", href: "/journal/" },
+  { label: "Tags", href: "/tags/" },
+  { label: "Friends", href: "/friends/" },
+  { label: "About", href: "/about/" },
+];
+---
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <nav class="site-nav">
+      {nav.map((item) => <a href={item.href}>{item.label}</a>)}
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,48 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { tagSlug } from "../lib/tags";
+
+interface Props {
+  entries: CollectionEntry<"posts">[];
+  limit?: number;
+  showDescription?: boolean;
+  showTags?: boolean;
+}
+
+const {
+  entries,
+  limit,
+  showDescription = false,
+  showTags = false,
+} = Astro.props;
+const visible = limit ? entries.slice(0, limit) : entries;
+---
+
+<ul class="article-list">
+  {
+    visible.map((entry) => (
+      <li>
+        <time datetime={entry.data.date.toISOString()}>
+          {entry.data.date.toISOString().slice(0, 10)}
+        </time>
+        <div>
+          <a class="item-title" href={`/writing/${entry.id}/`}>
+            {entry.data.title}
+          </a>
+          {(showDescription || showTags) && entry.data.description && (
+            <p class="item-meta">
+              <span class="description">{entry.data.description}</span>
+              {showTags && entry.data.tags.length > 0 && (
+                <span class="tags">
+                  {entry.data.tags.map((tag) => (
+                    <a href={`/tags/${tagSlug(tag)}/`}>#{tag}</a>
+                  ))}
+                </span>
+              )}
+            </p>
+          )}
+        </div>
+      </li>
+    ))
+  }
+</ul>

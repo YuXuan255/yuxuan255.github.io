@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+drafts/
+spec.md
+docs/
+AGENTS.md

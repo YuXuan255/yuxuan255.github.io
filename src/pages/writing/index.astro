@@ -1,0 +1,12 @@
+---
+import Base from "../../layouts/Base.astro";
+import ArticleList from "../../components/ArticleList.astro";
+import { getPosts } from "../../lib/posts";
+
+const posts = await getPosts();
+---
+
+<Base title="Writing · YuXuan255" description="全部文章,按时间倒序">
+  <h1>Writing</h1>
+  <ArticleList entries={posts} showDescription={true} showTags={true} />
+</Base>
