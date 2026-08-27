@@ -1,0 +1,14 @@
+scripts/split-journal.mjs
+  h_da6fd0bc394304 1,4-6,9-21,56-67,83-86,93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "163dad3e0ec8429286c202c9f99c83ffbb6ce3b6",
+  "prompts": {},
+  "humans": {
+    "h_da6fd0bc394304": {
+      "author": "Yuxuan Du <duyuxuan@ruc.edu.cn>"
+    }
+  }
+}
