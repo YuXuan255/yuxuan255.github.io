@@ -1,0 +1,16 @@
+src/content/journal/2026-08-21.md
+  h_da6fd0bc394304 1-6
+src/content/journal/2026-08-26.md
+  h_da6fd0bc394304 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "dbdc062bdec7f51863f8b0be96b5efbd34ad16e5",
+  "prompts": {},
+  "humans": {
+    "h_da6fd0bc394304": {
+      "author": "Yuxuan Du <duyuxuan@ruc.edu.cn>"
+    }
+  }
+}
