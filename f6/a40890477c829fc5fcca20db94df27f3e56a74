@@ -1,0 +1,16 @@
+src/data/now.ts
+  h_da6fd0bc394304 3
+.gitignore
+  h_da6fd0bc394304 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "f6a40890477c829fc5fcca20db94df27f3e56a74",
+  "prompts": {},
+  "humans": {
+    "h_da6fd0bc394304": {
+      "author": "Yuxuan Du <duyuxuan@ruc.edu.cn>"
+    }
+  }
+}
