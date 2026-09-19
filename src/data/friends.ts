@@ -16,4 +16,9 @@ export const friends: Friend[] = [
     description:
       "高中同学，ECNU计算机拔尖班，LLVM contributor & Clang-tidy maintainer，唯一真神。",
   },
+  {
+    name: "Yaozhi Ye",
+    url: "http://yeyaozhi.eu.cc/",
+    description: "GSAI的同学，目前主要关注 AI4Math 与 AI4TCS，博客内容很丰富。",
+  },
 ];
