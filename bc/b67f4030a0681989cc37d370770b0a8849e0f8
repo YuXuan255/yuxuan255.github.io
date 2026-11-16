@@ -1,0 +1,16 @@
+src/pages/index.astro
+  h_da6fd0bc394304 35
+src/data/now.ts
+  h_da6fd0bc394304 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bcb67f4030a0681989cc37d370770b0a8849e0f8",
+  "prompts": {},
+  "humans": {
+    "h_da6fd0bc394304": {
+      "author": "Yuxuan Du <duyuxuan@ruc.edu.cn>"
+    }
+  }
+}
