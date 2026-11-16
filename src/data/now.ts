@@ -1,3 +1,1 @@
-export const now: string[] = [
-  "project: git@github.com:lingchuan2024/zhigang-courseware-compiler",
-];
+export const now: string[] = ["field: world model, robotics"];
